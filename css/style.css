@@ -1,0 +1,380 @@
+
+/* ----------------------------------- start big-wrapper and banner ---------------------------------------------- */
+
+.big-wrapper{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/pic03.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#my-navigation{
+    background: none;
+    border: none;
+    margin-top: 2rem;
+}
+
+#my-navigation .navbar-toggle{
+    border: 2px solid grey;
+}
+
+#my-navigation .navbar-brand{
+    font-size: 3rem;
+    color: #fff;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-radius: 20px;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#my-navigation .navbar-brand:hover{
+    text-shadow: 5px 5px 5px #fff;
+}
+
+#my-navigation #mynavbar ul li{
+    font-size: 2.1rem; 
+    margin-left: 3rem;
+}
+
+#my-navigation #mynavbar .active{
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+
+#my-navigation #mynavbar ul li:hover{
+    text-shadow: 3px 3px 5px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+
+.banner{
+    margin-top: 200px;
+    color: #612C1C;
+}
+
+.banner h2{
+    font-size: 2.8rem;
+    text-shadow: 5px 5px 5px #fff;
+}
+
+.banner h1{
+    font-size: 4.8rem;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px #fff;
+}
+
+.banner span{
+    margin-top: 4rem;
+    font-size: 4rem;
+    color: #000;
+    animation: pulse 2s infinite;
+}  
+
+  
+@keyframes pulse {
+    0% {
+       color: chartreuse;
+    }
+    20% {
+      color: blue;
+    }
+    50% {
+      color: #612C1C;
+    }
+    100% {
+        transform: skew(720deg); 
+        transform: translateY(10px);
+    }
+}
+
+/* ----------------------------------- start big-wrapper and banner ---------------------------------------------- */
+
+
+/* ----------------------------------- start about section ---------------------------------------------- */
+
+.about-section{
+    margin: 8rem 0;
+}
+
+.about-section h2{
+    font-size: 4rem;
+    margin-bottom: 10rem;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #F85E92;
+    display: inline-block;
+    border-radius: 5px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.about-section .left img{
+    margin-left: 5rem;
+    width: 40%;
+    border: 10px groove #dbdbdb;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 50px;
+    animation: any 2s linear 5s infinite;
+}
+
+@keyframes any {
+    0% {
+        filter: grayscale(100%);
+    }
+    20% {
+        filter: grayscale(0%);
+    }
+    50% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
+
+.about-section .right h4{
+    background-color: #F85E92;
+    display: inline;
+    padding: 7px 12px;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px #fff;
+    letter-spacing: 3px;
+}
+
+.about-section .right p{
+    line-height: 4rem;
+}
+
+.about-section .right button{
+    background-color: #F85E92;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px #fff;
+}
+
+.about-section .right button:hover{
+    background: none;
+    border: 1px solid #F85E92;
+    color: #000;
+    text-shadow: 2px 2px 5px;
+}
+
+/* ----------------------------------- over about section---------------------------------------------- */
+
+/* ----------------------------------- skill and info section start ---------------------------------------------- */
+
+.full-wrapper{
+    background-image: url(../img/pic01.jpg);
+    color: #fff;
+    border-radius: 5px;
+    background-attachment: fixed;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.skill-info-section{
+    margin: 8rem 0;
+}
+
+.skill-info-section h2{
+    font-size: 4rem;
+    margin-bottom: 10rem;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #F85E92;
+    display: inline-block;
+    border-radius: 5px;
+    text-shadow: 3px 3px 3px #fff;
+}
+
+.skill-info-section .left .progress{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #000;
+    width: 90%;
+    margin-bottom: 4rem;
+}
+
+.skill-info-section .left .first{
+    background-color: #EF2729;
+}
+
+.skill-info-section .left .secound{
+    background-color: #039AED;
+}
+
+.skill-info-section .left .third{
+    background-color: #FECB00;
+}
+
+.skill-info-section .left .four{
+    background-color: #F85E92;
+}
+
+.skill-info-section .left .five{
+    background-color:  #471ea8;
+}
+
+.skill-info-section .left .six{
+    background-color: #0AAD5A;
+}
+
+/* ----------------------------------- skill and info section over ---------------------------------------------- */
+
+/* ----------------------------------- project section start ---------------------------------------------- */
+
+.project-section{
+    margin: 8rem 0;
+}
+
+.project-section h2{
+    font-size: 4rem;
+    margin-bottom: 8rem;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #F85E92;
+    display: inline-block;
+    border-radius: 5px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.project-section img{
+    width: 100%;
+    margin-bottom: 5rem;
+    border: 10px double  #dbdbdb;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.project-section img:hover{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
+/* ----------------------------------- project section over ---------------------------------------------- */
+
+/* ----------------------------------- contact section start ---------------------------------------------- */
+
+.wrapper{
+    padding: 5rem 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.wrapper h2{
+    font-size: 4rem;
+    margin-bottom: 8rem;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #F85E92;
+    display: inline-block;
+    border-radius: 5px;
+    text-shadow: 3px 3px 3px #fff;
+}
+
+.wrapper textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.spacial{
+    width: 100%;
+    background-color: #dbdbdb;
+}
+
+.footer{
+    margin: 5rem 0;
+    padding: 0.5rem 0;
+    border-radius: 20px;
+}
+
+.footer a{
+    color: #000;
+}
+
+.footer span{
+    font-size: 4rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+
+/* ----------------------------------- contact section over ---------------------------------------------- */
+
+
+/* ----------------------------------- Start Media Query ---------------------------------------------- */
+
+@media only screen and (max-width: 1200px){
+
+    .about-section .left img{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+
+    #my-navigation #mynavbar ul li{
+        font-size: 1.5rem; 
+        margin-left: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 996px){
+
+    .big-wrapper{
+       height: 100vh;
+    }
+
+    .navbar-nav li a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 15px;
+    }
+
+    .banner{
+        margin-top: 180px;
+    }
+
+    .banner h1{
+        font-size: 4.2rem;
+    }
+
+    .about-section .left{
+        text-align: center;
+    }
+
+    .about-section .left img{
+        width: 40%;
+        margin-left: 0;
+    }
+
+    .about-section .right{
+        text-align: center;
+        margin-top: 10rem;
+    }
+
+    .about-section .right hr{
+        border: 1px solid #dbdbdb;
+    }
+
+    .about-section .right h1{
+        font-size: 2.7rem;
+        margin-top: 4rem;
+    }
+
+    .about-section .right h3{
+        font-size: 2rem;
+    }
+
+    .about-section .right p{
+        line-height: 30px;
+    }
+
+    .skill-info-section .left .progress{
+        width: 100%;
+    }
+
+}
+
+/* ----------------------------------- Media Query Over ---------------------------------------------- */
