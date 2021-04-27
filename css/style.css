@@ -345,6 +345,10 @@
         letter-spacing: 3px;
     }
 
+    .banner span{
+        margin-top: 3rem;
+    }  
+
     .about-section .left{
         text-align: center;
     }
