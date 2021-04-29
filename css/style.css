@@ -1,4 +1,8 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ----------------------------------- start big-wrapper and banner ---------------------------------------------- */
 
 .big-wrapper{
@@ -70,7 +74,7 @@
     margin-top: 4rem;
     font-size: 4rem;
     color: #000;
-    animation: pulse 2s infinite;
+    animation: pulse 1s infinite;
 }  
 
   
@@ -321,6 +325,10 @@
 }
 
 @media only screen and (max-width: 996px){
+
+    #my-navigation #mynavbar ul li{
+        margin-left: 0;
+    }
 
     .big-wrapper{
        height: 100vh;
