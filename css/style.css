@@ -169,7 +169,7 @@ img {
   border-style: none; }
 
 svg {
-  overflow: hidden;
+  /* overflow: hidden; */
   vertical-align: middle; }
 
 table {
@@ -2510,7 +2510,7 @@ input[type="button"].btn-block {
 .collapsing {
   position: relative;
   height: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   -webkit-transition: height 0.35s ease;
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease; }
@@ -2679,7 +2679,7 @@ input[type="button"].btn-block {
 .dropdown-divider {
   height: 0;
   margin: 0.5rem 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-top: 1px solid #e9ecef; }
 
 .dropdown-item {
@@ -3955,7 +3955,8 @@ input[type="button"].btn-block {
       width: 100%; } }
 
 .accordion > .card {
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
   .accordion > .card:not(:first-of-type) .card-header:first-child {
     border-radius: 0; }
   .accordion > .card:not(:first-of-type):not(:last-of-type) {
@@ -4324,7 +4325,7 @@ input[type="button"].btn-block {
   display: -ms-flexbox;
   display: flex;
   height: 1rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-size: 0.75rem;
   background-color: #e9ecef;
   border-radius: 0.25rem; }
@@ -4651,7 +4652,7 @@ a.close.disabled {
 
 .toast {
   max-width: 350px;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-size: 0.875rem;
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
@@ -4689,7 +4690,8 @@ a.close.disabled {
   padding: 0.75rem; }
 
 .modal-open {
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
   .modal-open .modal {
     overflow-x: hidden;
     overflow-y: auto; }
@@ -4702,7 +4704,7 @@ a.close.disabled {
   display: none;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   outline: 0; }
 
 .modal-dialog {
@@ -4736,7 +4738,8 @@ a.close.disabled {
   max-height: calc(100% - 1rem); }
   .modal-dialog-scrollable .modal-content {
     max-height: calc(100vh - 1rem);
-    overflow: hidden; }
+    /* overflow: hidden;  */
+  }
   .modal-dialog-scrollable .modal-header,
   .modal-dialog-scrollable .modal-footer {
     -ms-flex-negative: 0;
@@ -5094,7 +5097,8 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
   .carousel-inner::after {
     display: block;
     clear: both;
@@ -5670,7 +5674,8 @@ button.bg-dark:focus {
   display: block;
   width: 100%;
   padding: 0;
-  overflow: hidden; }
+  /* overflow: hidden;  */
+}
   .embed-responsive::before {
     display: block;
     content: ""; }
@@ -6455,7 +6460,7 @@ button.bg-dark:focus {
   width: 1px;
   height: 1px;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0; }
@@ -7914,7 +7919,7 @@ button.bg-dark:focus {
   white-space: nowrap !important; }
 
 .text-truncate {
-  overflow: hidden;
+  /* overflow: hidden; */
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap; }
@@ -8140,7 +8145,7 @@ body {
   font-weight: 400;
   color: #999999; }
   body.menu-show {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: fixed;
     height: 100%;
     width: 100%; }
@@ -9358,7 +9363,7 @@ textarea.form-control {
   letter-spacing: .1em; }
 
 .block-20 {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
