@@ -8856,7 +8856,7 @@ h1, h2, h3, h4, h5,
     color: #ffbd39; }
 
 .email{
-  word-break: break-all;
+  word-break: break-all !important;
 }
 
 .resume-wrap {
