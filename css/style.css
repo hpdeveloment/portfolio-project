@@ -8823,6 +8823,7 @@ h1, h2, h3, h4, h5,
 @media only screen and (max-width: 767px) {
   #about-section .img{ 
     width: 80% !important;
+    height: 450px;
     margin-bottom: 2rem;
   }
 }
