@@ -8855,6 +8855,10 @@ h1, h2, h3, h4, h5,
     font-weight: 600;
     color: #ffbd39; }
 
+.email{
+  word-break: break-all;
+}
+
 .resume-wrap {
   width: 100%;
   margin-bottom: 30px;
